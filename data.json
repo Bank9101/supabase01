@@ -1,0 +1,46 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "!yMZBt3STzcDF1VLA406CPXMuCjeDZQi0trz8wgmB",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-09-01T02:30:52.914Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$cEgnYJAWd9r36adBjc8XnK$WabMXHJZrFSrESJCR2axM9qRA0f+P6WzKaPOddc4ynM=",
+        "last_login": "2025-09-01T02:43:07.351Z",
+        "is_superuser": true,
+        "username": "bank9101",
+        "first_name": "",
+        "last_name": "",
+        "email": "bankaz12333@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-09-01T02:42:41.305Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "viet6kcr4dhy6i5w4shl9ko8cwv30vrr",
+    "fields": {
+        "session_data": ".eJxVjDsOwyAQRO9CHSGb5Zsyvc-AFhaCkwgkY1dR7h5bcpE0U8x7M2_mcVuL33pa_EzsygS7_HYB4zPVA9AD673x2Oq6zIEfCj9p51Oj9Lqd7t9BwV72dYacjQwOHGqbNCKQSVYZOQobBqHEHhIokAYXTQRQNkhwhEMctdbIPl_e_Td3:1usuVf:hdZpXYNmgLzoIrAK_4FzLZWV-oJp28gOzvxi-0EaENU",
+        "expire_date": "2025-09-15T02:43:07.456Z"
+    }
+}
+]

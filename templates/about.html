@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}เกี่ยวกับเรา - เว็บแอป Jirasak{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold mb-3">เกี่ยวกับนักพัฒนา</h1>
+        <p class="lead">"Code is poetry, bugs are just misplaced semicolons"</p>
+      </div>
+      
+      <div class="card shadow-sm mb-5">
+        <div class="card-body p-5">
+          <h2 class="mb-4">นาย สิทธิชัย ลบยุทธ</h2>
+          <p class="mb-4">
+            <em>"ทำ web นี้คือมาเพื่อส่งงาน"</em> - แต่งานที่ออกมาต้องเป็นงานที่มีคุณภาพ
+            เพราะเชื่อว่า <strong>"ความเรียบง่ายคือความซับซ้อนสูงสุด"</strong>
+          </p>
+          <blockquote class="blockquote text-center mb-4">
+            <p class="mb-0">"บางครั้งโค้ดที่ดีที่สุดคือโค้ดที่ไม่ต้องเขียน แต่ถ้าต้องเขียน ก็ให้เขียนให้มันเป็นศิลปะ"</p>
+          </blockquote>
+          <p class="mb-0">
+            ในโลกของการเขียนโปรแกรม ไม่มีปัญหาใดที่ไม่สามารถแก้ได้ด้วย Stack Overflow และกาแฟ
+            <br><em>"First, solve the problem. Then, write the code."</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row g-4 mb-5">
+    <div class="col-md-6">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body text-center p-4">
+          <i class="bi bi-gear-fill text-primary fs-1 mb-3"></i>
+          <h4 class="mb-3">ปรัชญาการเขียนโค้ด</h4>
+          <p class="card-text">
+            <em>"Clean code always looks like it was written by someone who cares"</em>
+            <br>โค้ดที่สะอาดย่อมแสดงถึงความใส่ใจของผู้เขียน
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body text-center p-4">
+          <i class="bi bi-lightbulb-fill text-primary fs-1 mb-3"></i>
+          <h4 class="mb-3">แรงบันดาลใจ</h4>
+          <p class="card-text">
+            <em>"The best error message is the one that never shows up"</em>
+            <br>ข้อผิดพลาดที่ดีที่สุดคือข้อผิดพลาดที่ไม่เกิดขึ้น
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="bg-light p-5 rounded">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h3 class="mb-3">ข้อมูลทางเทคนิค</h3>
+            <div class="row">
+              <div class="col-sm-6">
+                <ul class="list-unstyled">
+                  <li><strong>Backend:</strong> Django Framework</li>
+                  <li><strong>Frontend:</strong> Bootstrap 5</li>
+                  <li><strong>Icons:</strong> Bootstrap Icons</li>
+                  <li><strong>ภาษา:</strong> Python, HTML, CSS</li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="list-unstyled">
+                  <li><strong>Database:</strong> SQLite</li>
+                  <li><strong>Responsive:</strong> Mobile-First</li>
+                  <li><strong>Browser:</strong> Cross-Platform</li>
+                  <li><strong>Performance:</strong> Optimized</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="bg-primary text-white p-4 rounded">
+              <i class="bi bi-heart-fill fs-1 mb-2"></i>
+              <h4>Made with ❤️</h4>
+              <p class="mb-0">"Talk is cheap.<br>Show me the code."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="text-center mt-5">
+    <h3 class="mb-3">หากมีคำถามหรือต้องการติดต่อ</h3>
+    <p class="lead mb-4">
+      <em>"In code we trust, in documentation we verify"</em><br>
+      ยินดีรับฟังทุกข้อเสนอแนะเพื่อพัฒนาต่อไป
+    </p>
+    <a href="/contact/" class="btn btn-primary btn-lg">มาคุยกัน</a>
+  </div>
+</div>
+{% endblock content %}
